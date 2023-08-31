@@ -25,7 +25,7 @@ $(document).ready(function () {
         tabela.append(linha);
     }
 
-    $("body").append(tabela)
+    $(".tabelAuthQuo").append(tabela)
 
 
 });

@@ -1,0 +1,197 @@
+body {
+    background-color: black;
+}
+
+.mainContainer{
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 10% 20% 50% 10%;
+    grid-template-columns: auto;
+}
+
+h1, h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+
+
+
+
+/*RELATIVO AO NAVBAR*/
+
+.navbar {
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+/*RELATIVO AO NAVBAR*/
+
+/*RELATIVO AO CENTERTITLE*/
+
+.centerTitle{
+    margin:auto;
+    width: 200px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    /*border: solid white;*/
+    justify-items: center;
+    align-items: center;
+}
+
+#mainTitle, #mainDescription{
+    color: white;
+}
+
+#mainDescription{
+    font-size: 0.9em;
+}
+
+#buttonQuote{
+
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 0px 16px;
+  border-radius: 2px;
+  min-width: 80px;
+  height: 32px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(50, 49, 48);
+  font-size: 14px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid rgb(138, 136, 134);
+  :hover {
+      background-color: rgb(243, 242, 241);
+      color: rgb(32, 31, 30);
+  }
+
+}
+
+/*RELATIVO AO CONTAINER*/
+
+.container{
+    margin-top: 20px;
+    width: 1500px;
+    height: 500px;
+    /*border: solid white;*/
+    display: grid;
+    grid-template-columns: 30% 10% 20% 10% 30%;
+    grid-template-rows: 33% 33% 34%;
+}
+
+.textoEsquerda{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /*border: solid red;*/
+}
+
+#quote{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ocupacaoAutor{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /*border: solid green;*/
+}
+
+.imagemDireita{
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /*border: solid blue;*/
+}
+
+#imagemAutor{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    display: none;
+}
+
+#descrAutor{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    display: none;
+}
+
+
+#quote{
+  display: none;
+}
+

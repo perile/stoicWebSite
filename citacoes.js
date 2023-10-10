@@ -58,6 +58,34 @@ let array1 = {
 
             ],
             imagem_do_autor: "./imagens/epictetus.png"
+        },
+
+        {
+            autor: "Chrysippus, Head of the Stoic School in Athens",
+            citacoes: [
+                "Living virtuously is equal to living in accordance with one's experience of the actual course of nature.",
+                "Wise people are in want of nothing, and yet need many things. On the other hand, nothing is needed by fools, for they do not understand how to use anything, but are in want of everything.",
+                "He who is running a race ought to endeavor and strive to the utmost of his ability to come off victor; but it is utterly wrong for him to trip up his competitor, or to push him aside. So in life it is not unfair for one to seek for himself what may accrue to his benefit; but it is not right to take it from another.",
+                "If I had followed the multitude, I should not have studied philosophy.",
+                "If I knew that it was fated for me to be sick, I would even wish for it; for the foot also, if it had intelligence, would volunteer to get muddy.",
+                "The universe itself is God and the universal outpouring of its soul.",
+                "We should infer in the case of a beautiful dwelling-place that it was built for its owners and not for mice; we ought, therefore, in the same way to regard the universe as the dwelling-place of the gods."
+
+            ],
+            imagem_do_autor: "./imagens/chrysippus.png"
+        },
+
+        {
+            autor: "Cleanthes, Zeno's successor",
+            citacoes: [
+                "Lead me, Zeus, and you too, Destiny,To wherever your decrees have assigned me. I follow readily, but if I choose not,Wretched though I am, I must follow still. Fate guides the willing, but drags the unwilling.",
+                "He needs little who desires but little.",
+                "He has his wish, whose wish can be to have what is enough.",
+                "People walk in wickedness all their lives or, at any rate, for the greater part of it. If they ever attain to virtue, it is late and at the very sunset of their days.",
+                "The Fates guide the person who accepts them and hinder the person who resists them."
+
+            ],
+            imagem_do_autor: "./imagens/cleanthes.png"
         }
     ]
 }

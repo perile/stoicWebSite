@@ -7,7 +7,7 @@ let numAleatCitacao = 0;
 //this event will work as soon as the user clicks on the buttonQuote button on the main page. It will then output a quote associated with an author, then the name of the author and a picture
 $("#buttonQuote").click(() => {
 
-    //generate a number between 0 and the total number of authors, so that one of the four authors can be picked. The 'array1.objCitacao.length' is the number of the authors
+    //generate a number between 0 and the total number of authors, so that one of the authors can be picked. The 'array1.objCitacao.length' is the number of the authors
     numAleatAutor = Math.floor(Math.random() * array1.objCitacao.length);
 
     //generates a number between 0 and the total number of quotes that a specific author has
